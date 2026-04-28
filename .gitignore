@@ -14,8 +14,11 @@ ENV/
 .coverage
 htmlcov/
 
-# Selenium/generated reports
-test_reports/
+# Selenium/generated report extras
+test_reports/*.png
+test_reports/*.jpg
+test_reports/*.jpeg
+test_reports/*.webp
 *.log
 
 # Environment variables and local config
